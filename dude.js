@@ -57,13 +57,15 @@ class Dude {
             coin.x > this.x && 
             coin.x < this.x + this.width) {
             
-            if  (game.coinsArr.splice(index, 1) && this.isJumping === true){
+            if (this.isJumping === true && game.coinsArr.splice(index, 1)) {
                 this.coinCollected += 2
+                console.log(this.coinCollected);
                 }
-            else if (game.coinsArr.splice(index, 1)){
+                else if (game.coinsArr.splice(index, 1)) {
                 this.coinCollected += 1
+                console.log(this.coinCollected);
                 }
-            }  
+            } 
         } 
     
     dudePlatfromCollision = (platfrom) => {
@@ -118,4 +120,4 @@ class Dude {
         };
     }
 
-}
+} 
