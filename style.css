@@ -23,12 +23,6 @@ html {
   display: flex;
 }
 
-#help-btn {
-  height: 100px;
-  width: 100px;
-  margin-top: 40px;
-  display: flex;
-}
 .container {
   display: flex;
   flex-direction: row;
@@ -45,7 +39,7 @@ html {
 #how-to {
   margin-top: 150px;
   width: 800px;
-  height: 600px;
+  height: 500px;
   margin-left: 200px;
   display: flex;
 }
