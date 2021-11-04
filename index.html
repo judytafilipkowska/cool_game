@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool dude ain't jumpin' as planned</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div id="splash-screen" class="containerOne">
+    
+      <img src="./img/wordart.png" width="300" alt="logo">
+      <img id="start-btn" src="./img/play.png" alt="start"/>
+      <img id="restart-btn"src="./img/replay.png" alt="restart"/>
+      
+    </div>
+    
+    <div id="welcome">
+      <img id="how-to" src="img/info.png" alt="instructions"/>
+      
+     </div>
+    <canvas id="my-canvas" width="1200" height="700"></canvas>
+    
+
+    <div id="gameover-screen" class="containerOne">
+      <img id="gif" src="img/dead.gif" alt="you_died" />
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+  <script src="./game.js"></script>
+  <script src="./dude.js"></script>
+  <script src="./platfroms.js"></script>
+  <script src="./item.js"></script>
+</body>
+</html>
