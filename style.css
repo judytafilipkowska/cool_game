@@ -1,66 +1,64 @@
 html {
-  background-image: url('./img/background.png');
+  background-image: url("./img/background.png");
 }
 
+#my-canvas {
+  background-image: url("./img/background.png");
+  background-color: lightgray;
+  border-bottom: 2px solid rgb(135, 199, 135);
+  margin-left: 50px;
+}
+
+#start-btn {
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+  display: flex;
+}
+
+#restart-btn {
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+  display: flex;
+}
+
+#help-btn {
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.containerOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#welcome {
+  display: flex;
+}
+#how-to {
+  margin-top: 150px;
+  width: 800px;
+  height: 600px;
+  margin-left: 200px;
+  display: flex;
+}
 
 #my-canvas {
-   background-image: url('./img/background.png');
-    background-color: lightgray;
-    border-bottom: 2px solid rgb(135, 199, 135) ;
-  margin-left: 50px;
-  }
-  
-  #start-btn {
-    height: 100px;
-    width: 100px;
-    margin-top: 40px;
-    display: flex;
-  }
+  display: none;
+}
 
-  #restart-btn {
-    height: 100px;
-    width: 100px;
-    margin-top: 40px;
-    display: flex;
-  }
+#gameover-screen {
+  display: none;
+}
 
-  #help-btn {
-    height: 100px;
-    width: 100px;
-    margin-top: 40px;
-    display: flex;
-
-  }
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-  .containerOne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #welcome {
-    display: flex;
-  }
-  #how-to {
-    margin-top: 150px;
-    width: 800px;
-    height: 600px;
-    margin-left: 200px;
-    display: flex;
-  }
-  
-  #my-canvas {
-    display: none;
-  }
-  
-  #gameover-screen {
-    display: none;
-  }
-
-  #gif {
-    width: 1200px;
-    height: 700px;
-  }
+#gif {
+  width: 1000px;
+  height: 650px;
+}
