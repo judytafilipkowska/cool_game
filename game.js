@@ -81,11 +81,11 @@ class Game {
         this.coinsArr.forEach((coin, i) => {
             this.dude.dudeCoinCollision(coin, i);
         })
-      /* this.platformArr.forEach( (platform) => {
+      this.platformArr.forEach( (platform) => {
             if (this.dude.dudePlatfromCollision(platform)) {
                 this.gameover();
                 }
-         } ) */
+         } ) 
 
         //3. drawing the elements
 
